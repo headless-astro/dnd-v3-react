@@ -1,0 +1,51 @@
+.box {
+  height: 50vh;
+  width: 40vh;
+  color: white;
+  background: linear-gradient(violet, indigo);
+  box-shadow: rgba(0, 0, 0, 0.5) 0.3rem 0.5rem 0.3rem;
+  border: blueviolet 0.3rem solid;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.8fr 5fr;
+}
+
+.gridForm {
+  padding: 0;
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.gridButton {
+  grid-row: 1/2;
+}
+
+.gridButtonFirst {
+  margin-left: -0.1em;
+  margin-top: -0.1em;
+  grid-column: 0/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridButtonSecond {
+  margin-top: -0.1em;
+  grid-column: 2 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridButtonInactive {
+  background-color: rgba(51, 11, 80, 0.856);
+  border: blueviolet 0.2rem solid;
+  border-top-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+  color: rgba(230, 230, 230, 0.87);
+}

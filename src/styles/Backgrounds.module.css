@@ -1,0 +1,14 @@
+.signUp {
+  background-image: url("../../public/Charles_Lee_Concept_Art_07-680x429.jpg");
+  background-color: linear-gradient(
+    to right,
+    rgb(134, 52, 127),
+    rgb(84, 61, 135)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.free {
+  background: linear-gradient(to right, rgb(134, 52, 127), rgb(84, 61, 135));
+}
